@@ -1,0 +1,32 @@
+{
+  "name": "qv-login",
+  "version": "1.0.0",
+  "description": "script to login",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx tsx login.ts",
+    "reopen": "npx tsx re-open.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimLynchCodes/qv-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JimLynchCodes/qv-login/issues"
+  },
+  "homepage": "https://github.com/JimLynchCodes/qv-login#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "playwright": "^1.64.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "puppeteer": "^25.13.0"
+  }
+}
